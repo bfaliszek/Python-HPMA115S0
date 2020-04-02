@@ -6,6 +6,10 @@ Tested on Raspberry Pi.
 
 Check if "Serial" is enabled: "sudo raspi-config" in the terminal and selecting "Interfacing options" and then "Serial”.
 
+The pySerial library is required:
+
++ `python -m pip install pyserial`
+
 ## Connection
 HPMA115S0 Pin – Raspberry Pi Pin
 + Pin 2 (Power input of 5V) – 5V
