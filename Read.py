@@ -15,9 +15,9 @@ def main():
     if port.isOpen():
         port.close()
     port.open()
-    time.sleep(0.1)
-    time.sleep(0.1)
+    time.sleep(0.2)
     try:
+        data = port.read(32);
         if ord(data[0]) == 66 and ord(data[1]) == 77:
             suma = 0
             for a in range(30):
